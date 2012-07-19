@@ -18,3 +18,5 @@ group :test do
   gem 'webmock'
   gem 'timecop'
 end
+
+gem 'simple-rss'
