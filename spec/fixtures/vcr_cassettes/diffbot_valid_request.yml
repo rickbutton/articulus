@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.diffbot.com/api/article?token=fake_working_token&url=http://abcnews.go.com/Entertainment/slideshow/celebrities-twitter-kardashian-kanye-6584329
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.3.1
+      Date:
+      - Thu, 19 Jul 2012 01:53:42 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Forwarded-From:
+      - ip-10-252-135-202
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! '{"author":"ABC News","text":"Roller coasters are a family affair
+        for Kim Kardashian. The reality TV star tweeted this photo on July 17 saying,
+        \"Magic Mountain fun today!!! Kendall screaming, Kanye laughing & me crying!\"
+        Later in the day, she added, \"I officially am afraid of heights now.\" (Twitter/@KimKardashian)\nThough
+        she''s famous, Willow Smith is just a regular kid. Mom Jada Pinkett Smith
+        tweeted this image of her daughter sleeping on dad Will Smith, writing, \"Being
+        a fatherless daughter these are the moments I cherish. Love. J.\" (Twitter/@jadapsmith)\nHugh
+        Hefner''s back with 26-year-old girlfriend Crystal Harris and happier than
+        ever. During his annual Fourth of July bash, the 86-year-old Playboy honcho
+        tweeted, \"My honey & I\" along with this photo. (@hughhefner/Twitter)\nChris
+        Brown posted this photo of a gash on his chin shortly after his nightclub
+        brawl with Drake. (Chris Brown/Twitter)\nKim Kardashian poses for a portrait
+        with her sisters, Khloe and Kourtney. (Kim Kardashian via Instagram)\nFive
+        months after her highly publicized split from Ashton Kutcher, Demi Moore is
+        back on Twitter and still using her ''@mrskutcher'' moniker. A photo of Moore,
+        who just finished rehab at the Cirque Lodge, that shows her lying on a bed
+        surfaced late Sunday night, with the simple message \"Testing....\" on the
+        social networking site. (@mrskutcher/Twitter)\n22-year-old Pauline Gretzky,
+        daughter of hockey legend Wayne Gretzky, is back on Twitter with another photo.
+        Gretzky, famous for posting risque pictures of herself online, closed her
+        account last week. The new picture lives up to the 22-year-old''s reputation:
+        here she poses suggestively in a white T-Shirt that screams SEX in large black
+        letters. (twitter.com/paulinagretzky)\n\"Having a nice sit down dinner with
+        my dad about social media..haha #SIKEEE,\" read the final tweet by Paulina
+        Gretzky, a 22-year-old model, singer and actress, the Toronto Star reported.
+        Gretzky had used her account to document her racy lifestyle among Los Angeles''
+        young and glamorous \u2013 richly illustrated with photos of herself in skimpy
+        outfits and lingerie. (Robyn Beck/Getty Images)\nJessica Simpson doesn''t
+        hold back on impacts of her pregnancy on her body. She commented on her retweet
+        of an OMGFacts post: \"The average person expels flatulence 15 times each
+        day!\" by saying \"The average pregnant woman farts 15 times that!\" (Kevin
+        Mazur/WireImage/Getty Images)\nLike mother, like son. Britney Spears brought
+        her young son Sean Preston on stage at the Budapest stop of her Femme Fatale
+        world tour. She tweeted this image from her Twitter account, @britneyspears.
+        (@britneyspears/Twitter)Continue reading at http://abcnews.go.com/Entertainment/slideshow/celebrities-twitter-kardashian-kanye-6584329?page=11
+        .","title":"Kim and Kanye''s Wild Ride","date":"on July 17","media":[{"link":"http://a.abcnews.com/images/Entertainment/ht_kim_kardashian_ss_jp_120718_ssh.jpg","primary":"true","type":"image"},{"link":"http://a.abcnews.com/images/Entertainment/ht_twitter_willow_will_smith_ss_thg_120716_ssh.jpg","primary":"true","type":"image"},{"link":"http://a.abcnews.com/images/Entertainment/ht_hefner_harris_ss_kb_120705_ssh.jpg","primary":"true","type":"image"},{"link":"http://a.abcnews.com/images/Entertainment/ht_chris_brown_ss_jp_120614_ssh.jpg","primary":"true","type":"image"},{"link":"http://a.abcnews.com/images/Entertainment/ht_kardashian_sisters_jef_ss_120521_ssv.jpg","primary":"true","type":"image"},{"link":"http://a.abcnews.com/images/Entertainment/ht_demi_moore_twitter_nt_120417_ssv.jpg","primary":"true","type":"image"},{"link":"http://a.abcnews.com/images/Entertainment/ht_paulina_gretzky_twitter_pic_ss_thg_111207_ssh.jpg","primary":"true","type":"image"},{"link":"http://a.abcnews.com/images/Entertainment/gty_paulina_gretzky_cc_ss_111130_ssh.jpg","primary":"true","type":"image"},{"link":"http://a.abcnews.com/images/Entertainment/gty_jessica_simpson_ss_jt_111105_ssv.jpg","primary":"true","type":"image"},{"link":"http://a.abcnews.com/images/Entertainment/ht_britney_spears_nt_111004_ssh.jpg","primary":"true","type":"image"}],"url":"http://abcnews.go.com/Entertainment/slideshow/celebrities-twitter-kardashian-kanye-6584329","xpath":"/HTML[1]/BODY[1]/DIV[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[3]/DIV[1]"}'
+    http_version: 
+  recorded_at: Thu, 19 Jul 2012 01:53:42 GMT
+recorded_with: VCR 2.2.3
