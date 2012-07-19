@@ -1,0 +1,538 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://rss.cnn.com/rss/cnn_us.rss
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Etag:
+      - WEkl1gQXJ7b9RxMFGUFOEMk2z1k
+      Last-Modified:
+      - Thu, 19 Jul 2012 06:32:41 GMT
+      Date:
+      - Thu, 19 Jul 2012 06:33:01 GMT
+      Expires:
+      - Thu, 19 Jul 2012 06:33:01 GMT
+      Cache-Control:
+      - private, max-age=0
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<?xml-stylesheet type=\"text/xsl\"
+        media=\"screen\" href=\"/~d/styles/rss2full.xsl\"?><?xml-stylesheet type=\"text/css\"
+        media=\"screen\" href=\"http://rss.cnn.com/~d/styles/itemcontent.css\"?><rss
+        xmlns:media=\"http://search.yahoo.com/mrss/\" xmlns:feedburner=\"http://rssnamespace.org/feedburner/ext/1.0\"
+        version=\"2.0\">\r\n<channel>\r\n<title>CNN.com - U.S.</title>\r\n<link>http://www.cnn.com/US/index.html?eref=rss_us</link>\r\n<description>CNN.com
+        delivers up-to-the-minute news and information on the latest top stories,
+        weather, entertainment, politics and more.</description>\r\n<language>en-US</language>\r\n<copyright>Copyright
+        2012 Cable News Network LP, LLLP.</copyright>\r\n<pubDate>Thu, 19 Jul 2012
+        02:32:41 EDT</pubDate>\r\n<ttl>10</ttl>\r\n<image>\r\n<title>CNN.com - U.S.</title>\r\n<link>http://www.cnn.com/US/index.html?eref=rss_us</link>\r\n<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>\r\n<width>144</width>\r\n<height>33</height>\r\n<description>CNN.com
+        delivers up-to-the-minute news and information on the latest top stories,
+        weather, entertainment, politics and more.</description>\r\n</image>\r\n<atom10:link
+        xmlns:atom10=\"http://www.w3.org/2005/Atom\" rel=\"self\" type=\"application/rss+xml\"
+        href=\"http://rss.cnn.com/rss/cnn_us\" /><feedburner:info uri=\"rss/cnn_us\"
+        /><atom10:link xmlns:atom10=\"http://www.w3.org/2005/Atom\" rel=\"hub\" href=\"http://pubsubhubbub.appspot.com/\"
+        /><item>\r\n<title> Americans multitask with phones, TV</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/18/tech/mobile/americans-mobile-phones-tv-mashable/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/78G85QuTtFk/index.html</link>\r\n<description>Thanks
+        to the growth of smartphone adoption, about half of U.S. mobile phone owners
+        use their devices while watching TV, a new study suggests.&lt;div class=\"feedflare\"&gt;\r\n&lt;a
+        href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=78G85QuTtFk:L0RH7Ydj9AM:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=78G85QuTtFk:L0RH7Ydj9AM:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=78G85QuTtFk:L0RH7Ydj9AM:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=78G85QuTtFk:L0RH7Ydj9AM:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=78G85QuTtFk:L0RH7Ydj9AM:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=78G85QuTtFk:L0RH7Ydj9AM:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=78G85QuTtFk:L0RH7Ydj9AM:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/78G85QuTtFk\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 21:27:50
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/18/tech/mobile/americans-mobile-phones-tv-mashable/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>How
+        is airline food inspected?</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/18/travel/airline-food-screening-expert/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/_0Z2vYwVzZc/index.html</link>\r\n<description>With
+        the six needles found in sandwiches on four international Delta Air Lines
+        flights from Amsterdam to the United States, it's a question already stressed
+        travelers are starting to ask.&lt;div class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=_0Z2vYwVzZc:MzmtON4_TgQ:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=_0Z2vYwVzZc:MzmtON4_TgQ:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=_0Z2vYwVzZc:MzmtON4_TgQ:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=_0Z2vYwVzZc:MzmtON4_TgQ:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=_0Z2vYwVzZc:MzmtON4_TgQ:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=_0Z2vYwVzZc:MzmtON4_TgQ:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=_0Z2vYwVzZc:MzmtON4_TgQ:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/_0Z2vYwVzZc\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 13:22:53
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/18/travel/airline-food-screening-expert/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>Glen
+        Campbell cancels shows </title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/18/showbiz/nt-glen-campbell-cancels/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/_tLBE_nezdw/index.html</link>\r\n<description>The
+        final international leg of Glen Campbell's \"Goodbye Tour\" in Australia and
+        New Zealand has been canceled because the long flight would have been too
+        taxing for him, his representative said Wednesday.&lt;div class=\"feedflare\"&gt;\r\n&lt;a
+        href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=_tLBE_nezdw:D2FanuTpuy0:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=_tLBE_nezdw:D2FanuTpuy0:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=_tLBE_nezdw:D2FanuTpuy0:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=_tLBE_nezdw:D2FanuTpuy0:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=_tLBE_nezdw:D2FanuTpuy0:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=_tLBE_nezdw:D2FanuTpuy0:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=_tLBE_nezdw:D2FanuTpuy0:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/_tLBE_nezdw\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 21:20:27
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/18/showbiz/nt-glen-campbell-cancels/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>Romney,
+        'safe' VP choice a mistake</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/17/opinion/granderson-romney-veep/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/RKkihldiKVg/index.html</link>\r\n<description>LZ
+        Granderson says Mitt Romney may feel pressure to pick a reliable conservative,
+        but his better bet is to aim for someone like Michael Bloomberg&lt;div class=\"feedflare\"&gt;\r\n&lt;a
+        href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=RKkihldiKVg:MNZBrE5RXQs:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=RKkihldiKVg:MNZBrE5RXQs:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=RKkihldiKVg:MNZBrE5RXQs:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=RKkihldiKVg:MNZBrE5RXQs:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=RKkihldiKVg:MNZBrE5RXQs:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=RKkihldiKVg:MNZBrE5RXQs:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=RKkihldiKVg:MNZBrE5RXQs:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/RKkihldiKVg\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 08:52:14
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/17/opinion/granderson-romney-veep/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>Alaska
+        drilling: 'Hell no!' to ... 'OK'</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/17/us/alaska-offshore-drilling/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/MhoZPSYqeuc/index.html</link>\r\n<description>A
+        powerful Alaskan leader's choice on offshore oil drilling pits environmental
+        fears against economic desires.&lt;div class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=MhoZPSYqeuc:ytiLYJxt6w8:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=MhoZPSYqeuc:ytiLYJxt6w8:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=MhoZPSYqeuc:ytiLYJxt6w8:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=MhoZPSYqeuc:ytiLYJxt6w8:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=MhoZPSYqeuc:ytiLYJxt6w8:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=MhoZPSYqeuc:ytiLYJxt6w8:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=MhoZPSYqeuc:ytiLYJxt6w8:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/MhoZPSYqeuc\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Tue, 17 Jul 2012 13:11:51
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/17/us/alaska-offshore-drilling/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>Even
+        in dissent, Scalia controversial</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/18/justice/antonin-scalia-profile/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/CYCalVEeW7o/index.html</link>\r\n<description>Supreme
+        Court Justice Antonin Scalia is known for bold disagreement, conservative
+        arguments, pointed questions and the occasional crude hand gesture, and still,
+        it's been an intense few months for one of the high court's most polarizing
+        figures, with biting insults hurled in his direction.&lt;div class=\"feedflare\"&gt;\r\n&lt;a
+        href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=CYCalVEeW7o:Gqeza2RhRKo:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=CYCalVEeW7o:Gqeza2RhRKo:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=CYCalVEeW7o:Gqeza2RhRKo:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=CYCalVEeW7o:Gqeza2RhRKo:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=CYCalVEeW7o:Gqeza2RhRKo:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=CYCalVEeW7o:Gqeza2RhRKo:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=CYCalVEeW7o:Gqeza2RhRKo:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/CYCalVEeW7o\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 21:14:36
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/18/justice/antonin-scalia-profile/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>Linsanity
+        ends in NYC</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/17/sport/new-york-jeremy-lin/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/VhAM2HFGBBY/index.html</link>\r\n<description>&lt;div
+        class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=VhAM2HFGBBY:lOXjnhFXbKw:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=VhAM2HFGBBY:lOXjnhFXbKw:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=VhAM2HFGBBY:lOXjnhFXbKw:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=VhAM2HFGBBY:lOXjnhFXbKw:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=VhAM2HFGBBY:lOXjnhFXbKw:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=VhAM2HFGBBY:lOXjnhFXbKw:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=VhAM2HFGBBY:lOXjnhFXbKw:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/VhAM2HFGBBY\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 08:40:22
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/17/sport/new-york-jeremy-lin/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>Teen
+        star of Olympic table tennis</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/17/us/olympics-table-tennis-ariel-hsing/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/VP_kG0nfzsY/index.html</link>\r\n<description>Ping-pong
+        is a game most Americans play in their basements. But competitive table tennis
+        is a different story. In fact, it's an Olympic sport, and the United States
+        has a bright, new star representing Team USA in London: 16-year-old Ariel
+        Hsing.&lt;div class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=VP_kG0nfzsY:288rxjwvHG8:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=VP_kG0nfzsY:288rxjwvHG8:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=VP_kG0nfzsY:288rxjwvHG8:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=VP_kG0nfzsY:288rxjwvHG8:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=VP_kG0nfzsY:288rxjwvHG8:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=VP_kG0nfzsY:288rxjwvHG8:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=VP_kG0nfzsY:288rxjwvHG8:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/VP_kG0nfzsY\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Tue, 17 Jul 2012 09:44:57
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/17/us/olympics-table-tennis-ariel-hsing/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>Woman
+        who stood up to Paterno</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/15/us/triponey-paterno-penn-state/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/3-6uIo7Vog0/index.html</link>\r\n<description>Vicky
+        Triponey saw first hand the insular culture in Happy Valley that led to so
+        much ruin. She took on Penn State and its legendary coach, trying to right
+        what she thought was wrong. She lost her job, but not her reputation.&lt;div
+        class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=3-6uIo7Vog0:yPcxx4huO7Q:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=3-6uIo7Vog0:yPcxx4huO7Q:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=3-6uIo7Vog0:yPcxx4huO7Q:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=3-6uIo7Vog0:yPcxx4huO7Q:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=3-6uIo7Vog0:yPcxx4huO7Q:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=3-6uIo7Vog0:yPcxx4huO7Q:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=3-6uIo7Vog0:yPcxx4huO7Q:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/3-6uIo7Vog0\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Mon, 16 Jul 2012 15:11:27
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/15/us/triponey-paterno-penn-state/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>End
+        near for declining gas prices?</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/15/travel/gas-prices/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/ZjY4AjH09Ps/index.html</link>\r\n<description>U.S.
+        gas prices slid downward another 6-plus cents in the past three weeks, but
+        the long decline that began in April may be nearing an end, according to a
+        new nationwide survey.&lt;div class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=ZjY4AjH09Ps:W_Rb4pPFM-Y:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=ZjY4AjH09Ps:W_Rb4pPFM-Y:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=ZjY4AjH09Ps:W_Rb4pPFM-Y:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=ZjY4AjH09Ps:W_Rb4pPFM-Y:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=ZjY4AjH09Ps:W_Rb4pPFM-Y:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=ZjY4AjH09Ps:W_Rb4pPFM-Y:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=ZjY4AjH09Ps:W_Rb4pPFM-Y:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/ZjY4AjH09Ps\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Mon, 16 Jul 2012 09:09:06
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/15/travel/gas-prices/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>Can
+        name changes help websites?</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/16/tech/web/msnbc-url-change/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/kkj42wmSNXI/index.html</link>\r\n<description>Conventional
+        webmaster wisdom holds that changing the name of a website leads to a drop
+        in its popularity.&lt;div class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=kkj42wmSNXI:NB87YnM8RAU:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=kkj42wmSNXI:NB87YnM8RAU:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=kkj42wmSNXI:NB87YnM8RAU:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=kkj42wmSNXI:NB87YnM8RAU:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=kkj42wmSNXI:NB87YnM8RAU:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=kkj42wmSNXI:NB87YnM8RAU:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=kkj42wmSNXI:NB87YnM8RAU:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/kkj42wmSNXI\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Mon, 16 Jul 2012 13:33:02
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/16/tech/web/msnbc-url-change/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>Turn
+        your iPhone into a stun gun</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/video/#/video/bestoftv/2012/07/16/nr-iphone-stun-gun.cnn</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/LOv9UPVGI8g/</link>\r\n<description>After
+        experiencing a home invasion, one Army reservist invents the iPhone case stun
+        gun that pumps 650,000 volts.&lt;div class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=LOv9UPVGI8g:HpiTkwg-ogQ:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=LOv9UPVGI8g:HpiTkwg-ogQ:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=LOv9UPVGI8g:HpiTkwg-ogQ:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=LOv9UPVGI8g:HpiTkwg-ogQ:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=LOv9UPVGI8g:HpiTkwg-ogQ:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=LOv9UPVGI8g:HpiTkwg-ogQ:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=LOv9UPVGI8g:HpiTkwg-ogQ:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/LOv9UPVGI8g\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Mon, 16 Jul 2012 00:24:09
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/video/#/video/bestoftv/2012/07/16/nr-iphone-stun-gun.cnn</feedburner:origLink></item>\r\n<item>\r\n<title>Jason
+        Kidd arrested after wreck</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/15/sport/jason-kidd-arrested/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/Itvfi8B0l2I/index.html</link>\r\n<description>Newly
+        signed New York Knicks point guard Jason Kidd was arrested early Sunday on
+        suspicion of driving while intoxicated after his vehicle struck a telephone
+        pole, police said.&lt;div class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=Itvfi8B0l2I:PF1ajyGtwas:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=Itvfi8B0l2I:PF1ajyGtwas:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=Itvfi8B0l2I:PF1ajyGtwas:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=Itvfi8B0l2I:PF1ajyGtwas:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=Itvfi8B0l2I:PF1ajyGtwas:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=Itvfi8B0l2I:PF1ajyGtwas:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=Itvfi8B0l2I:PF1ajyGtwas:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/Itvfi8B0l2I\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Mon, 16 Jul 2012 09:34:40
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/15/sport/jason-kidd-arrested/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>Ford
+        recalls 2013 Escape SUVs</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/15/business/ford-recall/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/Ey9mfyJLpvE/index.html</link>\r\n<description>The
+        Ford Motor Company is recalling more than 8,000 of its 2013 Escape compact
+        SUVs because of a potential problem affecting the brake pedal.&lt;div class=\"feedflare\"&gt;\r\n&lt;a
+        href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=Ey9mfyJLpvE:_x9lEnGABr8:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=Ey9mfyJLpvE:_x9lEnGABr8:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=Ey9mfyJLpvE:_x9lEnGABr8:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=Ey9mfyJLpvE:_x9lEnGABr8:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=Ey9mfyJLpvE:_x9lEnGABr8:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=Ey9mfyJLpvE:_x9lEnGABr8:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=Ey9mfyJLpvE:_x9lEnGABr8:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/Ey9mfyJLpvE\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Sun, 15 Jul 2012 20:02:19
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/15/business/ford-recall/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>If
+        Yahoo chief can 'have it all,' can you?</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/18/living/marissa-mayer-family-leave/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/ncAlMv95kIg/index.html</link>\r\n<description>Depending
+        who you ask, Yahoo's decision to hire Marissa Mayer several months into her
+        pregnancy is either a boon to all working mothers or a misstep for the ailing
+        tech company.&lt;div class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=ncAlMv95kIg:Z2Njb6xmDyI:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=ncAlMv95kIg:Z2Njb6xmDyI:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=ncAlMv95kIg:Z2Njb6xmDyI:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=ncAlMv95kIg:Z2Njb6xmDyI:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=ncAlMv95kIg:Z2Njb6xmDyI:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=ncAlMv95kIg:Z2Njb6xmDyI:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=ncAlMv95kIg:Z2Njb6xmDyI:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/ncAlMv95kIg\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 21:42:34
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/18/living/marissa-mayer-family-leave/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>California
+        green-lights high-speed rail</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/18/us/california-high-speed-rail/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/YJr6axoD6wE/index.html</link>\r\n<description>California
+        is poised to become home to the nation's first truly high-speed rail system
+        with Gov. Jerry Brown's signing Wednesday of a law authorizing the first leg
+        of construction for a line that will eventually connect Los Angeles and San
+        Francisco.&lt;div class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=YJr6axoD6wE:k7hnAP45qBA:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=YJr6axoD6wE:k7hnAP45qBA:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=YJr6axoD6wE:k7hnAP45qBA:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=YJr6axoD6wE:k7hnAP45qBA:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=YJr6axoD6wE:k7hnAP45qBA:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=YJr6axoD6wE:k7hnAP45qBA:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=YJr6axoD6wE:k7hnAP45qBA:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/YJr6axoD6wE\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 21:42:55
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/18/us/california-high-speed-rail/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>U.S.
+        issues worldwide security caution</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/18/travel/us-worldwide-caution/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/fCvcM5gOcnU/index.html</link>\r\n<description>The
+        U.S. government issued its latest version of a worldwide safety caution Wednesday
+        to U.S. citizens abroad.&lt;div class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=fCvcM5gOcnU:qpXgCXb-gs0:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=fCvcM5gOcnU:qpXgCXb-gs0:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=fCvcM5gOcnU:qpXgCXb-gs0:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=fCvcM5gOcnU:qpXgCXb-gs0:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=fCvcM5gOcnU:qpXgCXb-gs0:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=fCvcM5gOcnU:qpXgCXb-gs0:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=fCvcM5gOcnU:qpXgCXb-gs0:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/fCvcM5gOcnU\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 21:40:42
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/18/travel/us-worldwide-caution/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>MJ's
+        siblings attack estate executors</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/18/showbiz/jackson-estate-dispute/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/y0Ml0UMEzo0/index.html</link>\r\n<description>Janet
+        Jackson and four of her siblings sent a scathing letter to the men who control
+        Michael Jackson's estate, accusing them of fraud and of abusing their mother.&lt;div
+        class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=y0Ml0UMEzo0:5mZxXDd7aSw:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=y0Ml0UMEzo0:5mZxXDd7aSw:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=y0Ml0UMEzo0:5mZxXDd7aSw:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=y0Ml0UMEzo0:5mZxXDd7aSw:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=y0Ml0UMEzo0:5mZxXDd7aSw:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=y0Ml0UMEzo0:5mZxXDd7aSw:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=y0Ml0UMEzo0:5mZxXDd7aSw:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/y0Ml0UMEzo0\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 21:40:55
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/18/showbiz/jackson-estate-dispute/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>Snakes
+        in church</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/video/#/video/us/2012/07/18/ac-tuchman-serpent-preachers.cnn</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/6JzuQrDMOEs/</link>\r\n<description>CNN's
+        Gary Tuchman takes you inside the snake-handling churches of Appalachia.&lt;div
+        class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=6JzuQrDMOEs:B7j4Plb7DnE:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=6JzuQrDMOEs:B7j4Plb7DnE:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=6JzuQrDMOEs:B7j4Plb7DnE:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=6JzuQrDMOEs:B7j4Plb7DnE:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=6JzuQrDMOEs:B7j4Plb7DnE:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=6JzuQrDMOEs:B7j4Plb7DnE:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=6JzuQrDMOEs:B7j4Plb7DnE:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/6JzuQrDMOEs\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 09:56:02
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/video/#/video/us/2012/07/18/ac-tuchman-serpent-preachers.cnn</feedburner:origLink></item>\r\n<item>\r\n<title>Michael
+        Jackson's siblings attack estate executors</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/18/showbiz/jackson-estate-dispute/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/y0Ml0UMEzo0/index.html</link>\r\n<description>Janet
+        Jackson and four of her siblings sent a scathing letter to the men who control
+        Michael Jackson's estate, accusing them of fraud and of abusing their mother.&lt;div
+        class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=y0Ml0UMEzo0:LstzMe5t04Q:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=y0Ml0UMEzo0:LstzMe5t04Q:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=y0Ml0UMEzo0:LstzMe5t04Q:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=y0Ml0UMEzo0:LstzMe5t04Q:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=y0Ml0UMEzo0:LstzMe5t04Q:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=y0Ml0UMEzo0:LstzMe5t04Q:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=y0Ml0UMEzo0:LstzMe5t04Q:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/y0Ml0UMEzo0\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 16:49:15
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/18/showbiz/jackson-estate-dispute/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>U.S.
+        government issues another worldwide security caution</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/18/travel/us-worldwide-caution/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/fCvcM5gOcnU/index.html</link>\r\n<description>The
+        U.S. government issued its latest version of a worldwide safety caution Wednesday
+        to U.S. citizens abroad.&lt;div class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=fCvcM5gOcnU:caSDL5qJIJg:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=fCvcM5gOcnU:caSDL5qJIJg:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=fCvcM5gOcnU:caSDL5qJIJg:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=fCvcM5gOcnU:caSDL5qJIJg:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=fCvcM5gOcnU:caSDL5qJIJg:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=fCvcM5gOcnU:caSDL5qJIJg:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=fCvcM5gOcnU:caSDL5qJIJg:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/fCvcM5gOcnU\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 18:51:36
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/18/travel/us-worldwide-caution/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>If
+        Marissa Mayer can 'have it all,' can you?</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/18/living/marissa-mayer-family-leave/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/ncAlMv95kIg/index.html</link>\r\n<description>Depending
+        who you ask, Yahoo's decision to hire Marissa Mayer several months into her
+        pregnancy is either a boon to all working mothers or a misstep for the ailing
+        tech company.&lt;div class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=ncAlMv95kIg:eXwE-gKDSwA:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=ncAlMv95kIg:eXwE-gKDSwA:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=ncAlMv95kIg:eXwE-gKDSwA:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=ncAlMv95kIg:eXwE-gKDSwA:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=ncAlMv95kIg:eXwE-gKDSwA:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=ncAlMv95kIg:eXwE-gKDSwA:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=ncAlMv95kIg:eXwE-gKDSwA:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/ncAlMv95kIg\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 20:35:29
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/18/living/marissa-mayer-family-leave/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>California
+        on track for first true high-speed rail</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/18/us/california-high-speed-rail/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/YJr6axoD6wE/index.html</link>\r\n<description>California
+        is poised to become home to the nation's first truly high-speed rail system
+        with Gov. Jerry Brown's signing Wednesday of a law authorizing the first leg
+        of construction for a line that will eventually connect Los Angeles and San
+        Francisco.&lt;div class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=YJr6axoD6wE:NzIPfdw_j4g:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=YJr6axoD6wE:NzIPfdw_j4g:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=YJr6axoD6wE:NzIPfdw_j4g:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=YJr6axoD6wE:NzIPfdw_j4g:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=YJr6axoD6wE:NzIPfdw_j4g:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=YJr6axoD6wE:NzIPfdw_j4g:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=YJr6axoD6wE:NzIPfdw_j4g:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/YJr6axoD6wE\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 21:19:31
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/18/us/california-high-speed-rail/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>City
+        of San Bernardino, California, to vote on filing for bankruptcy</title>\r\n<guid
+        isPermaLink=\"false\">http://www.cnn.com/2012/07/18/us/california-city-bankruptcy/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/IMY6-YGzQUw/index.html</link>\r\n<description>The
+        City Council of San Bernardino, California, is scheduled to vote late Wednesday
+        on a resolution formally authorizing the filing of bankruptcy.&lt;div class=\"feedflare\"&gt;\r\n&lt;a
+        href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=IMY6-YGzQUw:5E5R6V9dV58:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=IMY6-YGzQUw:5E5R6V9dV58:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=IMY6-YGzQUw:5E5R6V9dV58:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=IMY6-YGzQUw:5E5R6V9dV58:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=IMY6-YGzQUw:5E5R6V9dV58:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=IMY6-YGzQUw:5E5R6V9dV58:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=IMY6-YGzQUw:5E5R6V9dV58:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/IMY6-YGzQUw\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 18:34:36
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/18/us/california-city-bankruptcy/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>GAO
+        investigators: Some student pilots in U.S. illegally </title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/18/us/gao-illegal-pilots/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/coge2cKNCWc/index.html</link>\r\n<description>Some
+        foreign students who enroll and graduate from U.S. flight schools are in the
+        U.S. illegally, despite extensive post-9/11 efforts to vet student pilots,
+        congressional investigators said Wednesday.&lt;div class=\"feedflare\"&gt;\r\n&lt;a
+        href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=coge2cKNCWc:osTEYh0NPT8:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=coge2cKNCWc:osTEYh0NPT8:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=coge2cKNCWc:osTEYh0NPT8:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=coge2cKNCWc:osTEYh0NPT8:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=coge2cKNCWc:osTEYh0NPT8:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=coge2cKNCWc:osTEYh0NPT8:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=coge2cKNCWc:osTEYh0NPT8:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/coge2cKNCWc\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 18:19:49
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/18/us/gao-illegal-pilots/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>Tennessee
+        Muslims sue to open mosque</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/18/justice/tennesee-mosque-lawsuit/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/S8kW_UyJrEo/index.html</link>\r\n<description>A
+        Tennessee Islamic center and the Justice Department asked a federal court
+        to clear the way for a controversial mosque to open in time for the start
+        of the Muslim holy month of Ramadan, at sunset Thursday.&lt;div class=\"feedflare\"&gt;\r\n&lt;a
+        href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=S8kW_UyJrEo:b4DidmuARsA:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=S8kW_UyJrEo:b4DidmuARsA:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=S8kW_UyJrEo:b4DidmuARsA:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=S8kW_UyJrEo:b4DidmuARsA:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=S8kW_UyJrEo:b4DidmuARsA:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=S8kW_UyJrEo:b4DidmuARsA:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=S8kW_UyJrEo:b4DidmuARsA:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/S8kW_UyJrEo\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 17:59:51
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/18/justice/tennesee-mosque-lawsuit/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>Lightning
+        knocks out Connecticut airport runways</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/18/travel/connecticut-runway-lightning/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/GJMdXMXrcI8/index.html</link>\r\n<description>A
+        lightning strike damaged runways at Bradley International Airport in Connecticut
+        on Thursday as a line of thunderstorms snarled power lines and air traffic
+        in the Northeast.&lt;div class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=GJMdXMXrcI8:rP3BwpHfi4E:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=GJMdXMXrcI8:rP3BwpHfi4E:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=GJMdXMXrcI8:rP3BwpHfi4E:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=GJMdXMXrcI8:rP3BwpHfi4E:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=GJMdXMXrcI8:rP3BwpHfi4E:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=GJMdXMXrcI8:rP3BwpHfi4E:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=GJMdXMXrcI8:rP3BwpHfi4E:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/GJMdXMXrcI8\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 19:18:57
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/18/travel/connecticut-runway-lightning/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>Lesbian
+        den leader petitions Boy Scouts for reinstatement</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/18/us/boy-scouts-gay/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/tOqwj0pn9lc/index.html</link>\r\n<description>The
+        lesbian den leader who was dismissed by her local Boy Scout troop this year
+        delivered Wednesday to the organization's headquarters a petition calling
+        for her reinstatement.&lt;div class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=tOqwj0pn9lc:EYLp5xYAtuk:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=tOqwj0pn9lc:EYLp5xYAtuk:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=tOqwj0pn9lc:EYLp5xYAtuk:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=tOqwj0pn9lc:EYLp5xYAtuk:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=tOqwj0pn9lc:EYLp5xYAtuk:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=tOqwj0pn9lc:EYLp5xYAtuk:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=tOqwj0pn9lc:EYLp5xYAtuk:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/tOqwj0pn9lc\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Wed, 18 Jul 2012 21:13:24
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/18/us/boy-scouts-gay/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>Dara
+        Torres quest ends at 45</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/2012/07/03/sport/olympics-torres-quest/index.html</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/GGj9y-XkAuE/index.html</link>\r\n<description>Dara
+        Torres' quest at the age of 45 to make her sixth U.S. Olympic team came down
+        to a single, furious lap.&lt;div class=\"feedflare\"&gt;\r\n&lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=GGj9y-XkAuE:4E19LDyjNYA:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=GGj9y-XkAuE:4E19LDyjNYA:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=GGj9y-XkAuE:4E19LDyjNYA:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=GGj9y-XkAuE:4E19LDyjNYA:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=GGj9y-XkAuE:4E19LDyjNYA:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=GGj9y-XkAuE:4E19LDyjNYA:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=GGj9y-XkAuE:4E19LDyjNYA:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/GGj9y-XkAuE\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Thu, 12 Jul 2012 11:57:04
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/2012/07/03/sport/olympics-torres-quest/index.html</feedburner:origLink></item>\r\n<item>\r\n<title>Allyson
+        Felix: I want that gold</title>\r\n<guid isPermaLink=\"false\">http://www.cnn.com/video/#/video/bestoftv/2012/07/02/pmt-allyson-felix.cnn</guid>\r\n<link>http://rss.cnn.com/~r/rss/cnn_us/~3/S9Sjv8Btu2c/</link>\r\n<description>After
+        coming within a fraction of a second of capturing gold in Beijing, Allyson
+        Felix says she's excited for London.&lt;div class=\"feedflare\"&gt;\r\n&lt;a
+        href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=S9Sjv8Btu2c:0VSdy1xrNA8:yIl2AUoC8zA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=yIl2AUoC8zA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=S9Sjv8Btu2c:0VSdy1xrNA8:7Q72WNTAKBA\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=7Q72WNTAKBA\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=S9Sjv8Btu2c:0VSdy1xrNA8:V_sGLiPBpWU\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=S9Sjv8Btu2c:0VSdy1xrNA8:V_sGLiPBpWU\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=S9Sjv8Btu2c:0VSdy1xrNA8:qj6IDK7rITs\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?d=qj6IDK7rITs\" border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;
+        &lt;a href=\"http://rss.cnn.com/~ff/rss/cnn_us?a=S9Sjv8Btu2c:0VSdy1xrNA8:gIN9vFwOqvQ\"&gt;&lt;img
+        src=\"http://feeds.feedburner.com/~ff/rss/cnn_us?i=S9Sjv8Btu2c:0VSdy1xrNA8:gIN9vFwOqvQ\"
+        border=\"0\"&gt;&lt;/img&gt;&lt;/a&gt;\r\n&lt;/div&gt;&lt;img src=\"http://feeds.feedburner.com/~r/rss/cnn_us/~4/S9Sjv8Btu2c\"
+        height=\"1\" width=\"1\"/&gt;</description>\r\n<pubDate>Tue, 10 Jul 2012 15:13:27
+        EDT</pubDate>\r\n<feedburner:origLink>http://www.cnn.com/video/#/video/bestoftv/2012/07/02/pmt-allyson-felix.cnn</feedburner:origLink></item>\r\n</channel>\r\n</rss>\r\n"
+    http_version: 
+  recorded_at: Thu, 19 Jul 2012 06:33:02 GMT
+recorded_with: VCR 2.2.3
