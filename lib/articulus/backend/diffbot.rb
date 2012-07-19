@@ -16,7 +16,7 @@ module DiffBot
         :title => json["title"],
         :url => url,
         :author => json["author"],
-        :text => json["text"],
+        :text => options[:html] ? json["html"] : json["text"],
         :date => json["date"]
       }
     when Net::HTTPUnauthorized || Net::HTTPForbidden
