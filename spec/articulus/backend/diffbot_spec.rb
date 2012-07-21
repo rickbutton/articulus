@@ -17,6 +17,16 @@ describe Articulus::Backend::DiffBot do
         expect { Articulus::Backend::DiffBot.parse(@url, :token => "not_a_real_token") }.to raise_error Articulus::InvalidApiKeyError
       end
     end
+    it 'should return the confidence when the stats option is included' do
+      VCR.use_cassette("diffbot_valid_request_with_stats") do
+        Articulus::Backend::DiffBot.parse(@url, :token => "fake_working_token", :stats=> true)[:confidence].should_not eq nil
+      end
+    end
+    it 'should replace negative infinity with 0 for the confidence value' do
+      VCR.use_cassette("diffbot_valid_request_with_stats_negative_infinity") do
+        Articulus::Backend::DiffBot.parse(@url, :token => "fake_working_token", :stats=> true)[:confidence].should eq 0
+      end
+    end
     
     it 'should include all of the required fields' do
       VCR.use_cassette("diffbot_valid_request") do

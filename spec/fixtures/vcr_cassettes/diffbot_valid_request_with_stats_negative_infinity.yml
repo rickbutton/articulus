@@ -1,0 +1,43 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.diffbot.com/api/article?stats=yes&token=fake_working_token&url=http://abcnews.go.com/Entertainment/slideshow/celebrities-twitter-kardashian-kanye-6584329
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.3.1
+      Date:
+      - Sat, 21 Jul 2012 18:13:39 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Forwarded-From:
+      - ip-10-244-5-44
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: ! '{"author":"ABC News","text":"Harper Beckham''s off and running. The
+        first steps of Victoria Beckham''s daughter were captured by publicist Caroline
+        Kennedy on Twitter July 16. 7-month-old Harper is seen tottering across Beckham''s
+        clothing showroom in Dublin, Ireland. (Twitter/@CKennedyPR)","title":"Beckham''s
+        Kid Totters on Twitter","stats":{"fetchTime":732,"confidence":"-∞"},"date":"July
+        16.","media":[{"link":"http://a.abcnews.com/images/Technology/x17_rihanna_jef_ss_110729_sst.jpg","type":"image"},{"link":"http://a.abcnews.com/images/Technology/ht_lindsay_lohan_twitter_101217_sst.jpg","type":"image"},{"link":"http://a.abcnews.com/images/Entertainment/ht_victoria_beckham_harper_ss_thg_120719_ssv.jpg","type":"image"}],"url":"http://abcnews.go.com/Entertainment/slideshow/celebrities-twitter-kardashian-kanye-6584329","xpath":"/HTML[1]/BODY[1]/DIV[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[3]/DIV[1]"}'
+    http_version: 
+  recorded_at: Sat, 21 Jul 2012 18:13:40 GMT
+recorded_with: VCR 2.2.3

@@ -12,13 +12,19 @@ module DiffBot
     case response
     when Net::HTTPSuccess
       json = JSON.parse(response.body)
-      return {
+      hash = {
         :title => json["title"],
         :url => url,
         :author => json["author"],
         :text => options[:html] ? json["html"] : json["text"],
         :date => json["date"]
       }
+      if options[:stats]
+        conf = json["stats"]["confidence"]
+        conf = 0 if conf == "-\u221E" #turn negative infinity into 0 confidence
+        hash[:confidence] = conf
+      end
+    return hash
     when Net::HTTPUnauthorized || Net::HTTPForbidden
       raise InvalidApiKeyError, "Developer token is unauthorized/forbidden"
     end
@@ -29,8 +35,9 @@ module DiffBot
     def self.request_url_from_article(url, options)
       check_token(options)
       html_option = options[:html] ? "&html=yes" : ""
+      stats_option = options[:stats] ? "&stats=yes" : ""
       token = "token=#{options[:token]}"
-      "http://www.diffbot.com/api/article?#{token}&url=#{url}#{html_option}"
+      "http://www.diffbot.com/api/article?#{token}&url=#{url}#{html_option}#{stats_option}"
     end
     
     def self.check_token(options)
