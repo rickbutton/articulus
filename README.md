@@ -19,14 +19,20 @@ Or install it yourself as:
 
 ## Usage
 
-Usage of Articulus will be slightly different depending on the backend used.
+Usage of Articulus will be slightly different depending on the backend used. Some backends have more or less features.
 
 ### DiffBot
 
     Articulus.backend = :diffbot
     article = Articulus.parse("http://news.somewebsite.com/article.html", :token => "DIFFBOT_TOKEN")
     puts article[:title]
-    puts article[:text]
+    puts article[:text
+
+DiffBot also provides an option to view their confidence rating on an article. Just set `:stats` to `true` in the `parse` method.
+
+    article = Articulus.parse("http://news.somewebsite.com/article.html", :token => "DIFFBOT_TOKEN", :stats => true)
+	confidence = article[:confidence]
+
 
 ## Contributing
 
