@@ -36,6 +36,13 @@ describe Articulus::Backend::DiffBot do
         end 
       end
     end
+    
+    it 'should be able to handle really ugly urls (with params)' do
+      VCR.use_cassette("diffbot_ugly_url_request") do
+        ugly_url = "http://usnews.msnbc.msn.com/_news/2012/07/20/12850048-cops-weeks-of-planning-went-into-shootings-at-colo-batman-screening?lite&amp;__utma=14933801.651844641.1342504752.1342850416.1342852536.5&amp;__utmb=14933801.5.10.1342852536&amp;__utmc=14933801&amp;__utmx=-&amp;__utmz=14933801.1342852536.5.2.utmcsr=google|utmccn=%28organic%29|utmcmd=organic|utmctr=nbc%20news.com&amp;__utmv=14933801.|8=Earned%20By=msnbc|cover=1^12=Landing%20Content=Mixed=1^13=Landing%20Hostname=www.nbcnews.com=1^30=Visit%20Type%20to%20Content=Earned%20to%20Mixed=1&amp;__utmk=152072633"
+        expect { Articulus::Backend::DiffBot.parse(ugly_url, :token => "fake_working_token") }.to_not raise_error
+      end
+    end
   end
 
 end

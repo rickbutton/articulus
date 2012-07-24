@@ -6,7 +6,7 @@ module DiffBot
   
   def self.parse(url, options = {})
     check_token(options)
-    uri = URI.parse(request_url_from_article(url, options))
+    uri = URI.parse(request_url_from_article(URI.escape(url), options))
     response = Net::HTTP.get_response(uri)
     
     case response
