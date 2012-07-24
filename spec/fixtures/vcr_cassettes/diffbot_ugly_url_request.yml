@@ -1,0 +1,173 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.diffbot.com/api/article?amp;__utma=14933801.651844641.1342504752.1342850416.1342852536.5&amp;__utmb=14933801.5.10.1342852536&amp;__utmc=14933801&amp;__utmk=152072633&amp;__utmv=14933801.%7C8=Earned%2520By=msnbc%7Ccover=1%5E12=Landing%2520Content=Mixed=1%5E13=Landing%2520Hostname=www.nbcnews.com=1%5E30=Visit%2520Type%2520to%2520Content=Earned%2520to%2520Mixed=1&amp;__utmx=-&amp;__utmz=14933801.1342852536.5.2.utmcsr=google%7Cutmccn=%2528organic%2529%7Cutmcmd=organic%7Cutmctr=nbc%2520news.com&token=fake_working_token&url=http://usnews.msnbc.msn.com/_news/2012/07/20/12850048-cops-weeks-of-planning-went-into-shootings-at-colo-batman-screening?lite
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.3.1
+      Date:
+      - Tue, 24 Jul 2012 02:54:52 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Forwarded-From:
+      - ip-10-252-67-5
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! '{"icon":"http://cdn.lib.newsvine.com/chrome/msnbc/images/favicon.ico","author":"U.S.
+        News","text":"The gunman reportedly never said a word while shooting 71 people,
+        killing 12, in a soldout show for \"The Dark Knight Rises.\" NBC News'' Miguel
+        Almaguer reports.\nBy M. Alex Johnson and Pete Williams, NBC News\nUpdated
+        at 10:14 p.m. ET: A graduate student''s attack in a sold-out theater near
+        Denver showing the new Batman movie, in which 12 people were killed early
+        Friday, was the culmination of two months of meticulous planning that included
+        a potentially deadly booby trap left in the suspect''s home for investigators,
+        authorities said.\nFifty-eight other people were injured, many of them seriously,
+        in the shootings shortly after midnight at the Century 16 Movie Theaters complex
+        in Aurora, Colo. Earlier reports had said 59 people were injured, but police
+        revised that number at a news conference Friday night. All but a small handful
+        of the injured had been shot, Police Chief Dan Oates said.\nThirty people
+        remained in area hospitals Friday night, 11 of them in critical condition,
+        after a carefully orchestrated attack in which the suspect, identified as
+        James Eagan Holmes, 24, bought all of his weapons and ammunition legally beginning
+        in May.\nLate Friday, the family of Alex Sullivan, 27, said in a statement
+        that he was among the dead, the Denver Post and The Associated Press reported.
+        Heart-wrenching photographs taken earlier Friday showed Sullivan''s father,
+        Tom, grieving and pleading for information about his son.\nFederal and local
+        enforcement officials said Holmes was sheathed in a helmet, a gas mask, a
+        tactical bulletproof vest, throat and groin protectors and tactical gloves.
+        All of the gear was black.\nHolmes was armed with two .40-caliber Glock handguns,
+        a Remington 870 single-barrel pump shotgun, a Smith & Wesson AR-15 assault-style
+        rifle and as many as 6,000 rounds of ammunition, Oates said.\nThe scene also
+        appeared to have been specially targeted for maximum carnage \u2014 the local
+        premiere of one of the most eagerly awaited movies of the year, \"The Dark
+        Knight Rises,\" the third in the series of director Christopher Nolan''s Batman
+        films.\nIn a statement, Nolan expressed \"profound sorrow at the senseless
+        tragedy that has befallen the entire Aurora community.\"\nAurora, Colo., Police
+        Chief Dan Oates says the suspect in the theater shootings bought his weapons
+        and ammunition legally.\nAfter he was arrested outside the theater, Holmes
+        told police that he was the Joker, a reference to one of the most prominent
+        villains in the Batman canon, a law enforcement official told NBC News on
+        condition of anonymity. (The official said the suspect had dyed his hair red
+        or orange, which isn''t typically associated with the green-haired Joker character,
+        who doesn''t appear in \"The Dark Knight Rises.\")\nAurora police said Holmes
+        also booby-trapped his apartment with an elaborate network of wire-connected
+        bottles containing an unknown liquid, presumably intended to go off when authorities
+        arrived to canvass his home.\nHolmes told police about the trap before they
+        arrived, however, and investigators hadn''t entered the apartment Friday night.
+        They were analyzing gases and examining photographs of the scene to figure
+        out how to deal with the materials and had decided to defer any action until
+        Saturday at the earliest, Oates said.\n\"It''s not something I''ve ever seen
+        before,\" said Oates, who said that the area was evacuated and that police
+        were expected to remain on the scene \"for hours or days.\"\nHolmes, a graduate
+        student from San Diego who was in the process of withdrawing from the neuroscience
+        program at the University of Colorado-Denver medical school, put up no resistance
+        when he was arrested in a parking lot at the theater, police said. He retained
+        legal counsel and wasn''t answering investigators'' questions, they said.\n\"We
+        are confident he acted alone,\" Oates said of Holmes, who was scheduled to
+        appear in Arapahoe County District Court on Monday morning to face unspecified
+        charges. Authorities refused to speculate on his possible motive.\nOne of
+        those killed was Jessica Ghawi, a sportswriter who survived a June 2 mass
+        shooting at a mall in Toronto in which two people were killed and seven others
+        were injured. Ghawi blogged under the name Jessica Redfield.\nDefense officials
+        told NBC News that a sailor at Buckley Air Force Base in Aurora was missing
+        and presumed to have been killed. A second sailor and two airmen from Buckley
+        were also shot. Their identities and conditions weren''t available.\n''Mass
+        chaos''\nAuthorities said the gunman appeared at the front of the theater
+        at 12:39 a.m. (2:39 a.m. ET), about 20 minutes into the film, and released
+        two canisters of gas. Witnesses told reporters that the gunfire erupted during
+        a shootout scene. Authorities responded within a minute and a half, Oates
+        said.\n\"It was mass chaos,\" witness Jennifer Seeger told TODAY. The gunman
+        shot the ceiling and then \"he threw in the gas can, and then I knew it was
+        real.\"\nWitnesses said the gunman entered the theater at Aurora Town Center
+        through an emergency exit door. But a federal law enforcement official told
+        The Associated Press that the suspect bought a ticket and went in as part
+        of the crowd. He is believed to have propped open an exit door as the movie
+        was playing, the official said.\nWatch live video from KUSA\nAurora is a suburb
+        less than 10 miles east of downtown Denver and just 15 miles northeast of
+        Littleton, near the scene of what had been the worst mass shooting in Colorado:
+        the Columbine High School massacre on April 20, 1999, when two gunmen killed
+        12 fellow students and a teacher and wounded 26 other people before killing
+        themselves.\nThree of the suspect''s four weapons were found in his white
+        Hyundai parked at the back entrance to the theater; one of the handguns was
+        found in the theater.\nLaw enforcement officials told NBC News that the weapons
+        were legally bought from local stores of two national chains \u2014 Gander
+        Mountain Guns and Bass Pro Shop \u2014 beginning in May.\nOates didn''t say
+        what kind of magazines were used, but he said \"many, many rounds were fired.\"
+        Some rounds penetrated an adjoining theater and injured at least one person,
+        he said.\nJennifer Seeger, who sat in the second row of the theater when the
+        gunman arrived, tells NBC''s Brian Williams about her ordeal.\nJames Yacone,
+        the FBI''s agent in charge in Denver, said there was no indication of a link
+        to terrorism. Holmes wasn''t on any federal law enforcement watch lists, authorities
+        told NBC News, and Oates said he had no police record beyond a speeding ticket
+        last year.\nThe few people who had any contact with Holmes described him as
+        a recluse who lived with his shades drawn and who, when he did meet someone,
+        revealed little.\n\"He kept to himself, didn''t like a lot of attention,\"
+        said Melvin Evans, a neighbor.\nAnother neighbor, Kaitlyn Fonzi, said, \"We
+        never heard anything abnormal until midnight this morning, when we heard loud
+        techno music playing\" from Holmes'' apartment.\n''Pain and grief ... too
+        intense for words''\nGov. John Hickenlooper said at a news conference that
+        \"our hearts are broken as we think of the friends and family of the victims
+        of this senseless tragedy.\" He called the shootings \"the act of an apparently
+        very deranged mind.\"\n\"The pain and grief (are) too intense for words, but
+        we can''t let it keep us from our lives,\" Hickenlooper said. \"We are going
+        to come back stronger from this, but it is obviously going to be a very long
+        process.\"\nPresident Barack Obama cut short a campaign visit to Florida to
+        return to Washington ahead of schedule.\nHe called for reflection after the
+        attack. \"There are going to be other days for politics,\" Obama said during
+        an abbreviated appearance in Fort Myers, where he led a moment of silence
+        on behalf of the victims and their families.\nMore on this story from breakingnews.com\nAt
+        a campaign appearance in Bow, N.H., Republican presidential challenger Mitt
+        Romney said: \"Today is to remember and reach out and remember our blessings
+        in life. Each of us will hold family close and spend a little less time thinking
+        about the worries of our day and helping those in need of compassion.\"\n''We
+        need to go''\nMoviegoers described scenes of chaos and terror inside the movie
+        theater.\nTanner Coon, 17, describes seeing flashes of gunfire, which he thought
+        were fireworks, amid the chaos of trying to escape the shooting as he was
+        \"trying to calm\" his friend''s 12-year-old brother.\nTanner Coon, who was
+        in the theater with a friend and the friend''s 12-year-old brother when the
+        shooter came in, said he told them to \"get down\" when he heard the gunshots.\nThe
+        shooter fired off about 20 rounds and there was then a pause and a \"period
+        of quietness when everybody started running out,\" Coon said.\n\"I slipped
+        on some blood and landed on a lady. I shook her and said, ''We need to go.''
+        There was no response, so I presume she was dead,\" Coon said.\nPhotoBlog:
+        More images from the scene of the shooting in Aurora\nParis premiere canceled\nFilm
+        critics have noted the dark, anxiety-fueled themes of \"The Dark Knight Rises,\"
+        which reminded some of the atmosphere in the days after the terrorist attacks
+        of Sept. 11, 2001. It had been projected to be one of the biggest films of
+        the year, and theaters around the world began showing it at 12:01 a.m. Friday.\n\"Warner
+        Bros. and the filmmakers are deeply saddened to learn about this shocking
+        incident. We extend our sincere sympathies to the families and loved ones
+        of the victims at this tragic time,\" the studio said in a statement.\nChris
+        Dodd, chairman of the Motion Picture Association of America, said in a statement:\n\"We
+        share the shock and sadness of everyone in the motion picture community at
+        the news of this terrible event. We extend our prayers and deepest sympathies
+        to the victims, their loved ones and all those affected by this tragedy.\"\nMiguel
+        Almaguer, F. Brinley Bruton, Kristen Dahlgren, Bill Dedman, Jay Gray, Charles
+        Greene, Garrett Haake, Ian Johnston, Zoya Khan, Jim Miklaszewski, Daniel Strieff,
+        Mike Taibbi, Shawna Thomas, David Wyllie and Edgar Zuniga of NBC News and
+        NBC stations KUSA of Denver and KNSD of San Diego contributed to this report.\nRelated
+        content from NBCNews.com:\nFollow US News from NBCNews.com on Twitter and
+        Facebook","title":"Weeks of planning went into shootings at Colo. Batman screening","date":"3
+        days ago","media":[{"link":"http://m.static.newsvine.com/servista/imagesizer?file=alex-johnson44BC8D06-1F62-ED1B-55E5-AE36CD1E6E05.jpg&width=380","primary":"true","type":"image"}],"url":"http://usnews.msnbc.msn.com/_news/2012/07/20/12850048-cops-weeks-of-planning-went-into-shootings-at-colo-batman-screening?lite","xpath":"/HTML[1]/BODY[1]/DIV[1]/DIV[2]/ARTICLE[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]"}'
+    http_version: 
+  recorded_at: Tue, 24 Jul 2012 02:54:55 GMT
+recorded_with: VCR 2.2.3
