@@ -43,6 +43,13 @@ describe Articulus::Backend::DiffBot do
         expect { Articulus::Backend::DiffBot.parse(ugly_url, :token => "fake_working_token") }.to_not raise_error
       end
     end
+    
+    it 'should return nil when the page cannot be parsed' do
+      VCR.use_cassette("diffbot_404_error") do
+        url = "http://feeds.abcnews.com/click.phdo?i=a7e55ac32942a9234c91c78e3934920b"
+        Articulus::Backend::DiffBot.parse(url, :token => "fake_working_token").should eq nil
+      end
+    end
   end
 
 end

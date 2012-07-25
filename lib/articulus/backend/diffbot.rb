@@ -12,6 +12,7 @@ module DiffBot
     case response
     when Net::HTTPSuccess
       json = JSON.parse(response.body)
+      return if json["error"]
       hash = {
         :title => json["title"],
         :url => url,
