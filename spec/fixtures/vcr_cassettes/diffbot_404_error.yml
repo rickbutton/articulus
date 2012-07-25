@@ -1,0 +1,36 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.diffbot.com/api/article?token=fake_working_token&url=http://feeds.abcnews.com/click.phdo?i=a7e55ac32942a9234c91c78e3934920b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.3.1
+      Date:
+      - Wed, 25 Jul 2012 01:42:18 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! '{"error":"Could not download url http:\/\/feeds.abcnews.com\/click.phdo?i=a7e55ac32942a9234c91c78e3934920b","errorCode":404}'
+    http_version: 
+  recorded_at: Wed, 25 Jul 2012 01:42:18 GMT
+recorded_with: VCR 2.2.3
